@@ -1,5 +1,5 @@
 class StaticController < ApplicationController
   def home
-    erb :"/static/home"
+    render "/static/home"
   end
 end
